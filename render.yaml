@@ -4,7 +4,7 @@ services:
     env: docker
     plan: free
     autoDeploy: true
-    dockerImage: n8nio/n8n:latest
+    dockerImage: n8nio/n8n:1.83.2
     healthCheckPath: /
     envVars:
       - key: N8N_PORT
