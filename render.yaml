@@ -14,7 +14,7 @@ services:
       - key: N8N_HOST
         value: n8n.onrender.com
       - key: WEBHOOK_URL
-        value: https://n8n.onrender.com
+        value: https://n8n-abc123.onrender.com
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: DB_TYPE
